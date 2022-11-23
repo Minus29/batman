@@ -1,0 +1,218 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+/* header */
+.header {
+    color: #FFFFFF;
+    height: auto;
+}
+
+.descuento {
+    color: black;
+    padding-left: 20px;
+    background-color: #1CD1B0;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    background-color: #00669F;
+    height: 100px;
+    padding-left: 20px;
+}
+
+.submenu {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 40px;
+    background-color: #001D2D;
+}
+
+.submenu ul {
+    display: flex;
+}
+
+.submenu ul li {
+    padding-right: 40px;
+    list-style: none;
+}
+
+.submenu ul li a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+/* main article */
+
+.main {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.article {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 350px;
+    height: auto;
+    position: relative;
+    margin: 20px;
+}
+
+.article div img {
+    width: 150px;
+    border-radius: 50%;
+}
+
+.background {
+    background-image: url('../img/849bfede3a5193c34ab8a00379e64fa2\ 1.png');
+    background-size: cover;
+    height: 300px;
+    background-position: top;
+    z-index: 1;
+}
+
+.background1 {
+    background-image: url('../img/harleyfondo.png');
+    background-size: cover;
+    height: 300px;
+    background-position: top;
+    z-index: 1;
+}
+
+.background img {
+    margin-top: 180px;
+    margin-left: 100px;
+}
+
+.background1 img {
+    margin-top: 180px;
+    margin-left: 100px;
+}
+
+.contain {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 40px;
+    background-color: #F3F3F3;
+}
+
+.background div i {
+    color: red;
+    padding-top: 5px;
+    margin-left: 10px;
+}
+
+.background1 div i {
+    color: red;
+    padding-top: 5px;
+    margin-left: 10px;
+}
+
+.contain h2 {
+    padding: 30px;
+}
+
+.contain p {
+    padding: 10px;
+}
+
+.button {
+    padding: 10px 40px;
+    border: none;
+    background-color: #00669F;
+    color: #F3F3F3;
+    margin: 10px;
+}
+
+.footer {
+    display: flex;
+    background-color: #00669F;
+    color: white;
+    align-items: center;
+    height: 150px;
+    justify-content: flex-end;
+}
+
+.footer1 p {
+    padding-right: 550px;
+}
+
+.imgfooter {
+    padding-right: 40px;
+}
+
+
+
+/* Form añadir */
+section {
+    display: flex;
+    justify-content: center;
+    height: 800px;
+    margin: 50px;
+}
+
+.card {
+    background-color: #00669F;
+    border-radius: 15px;
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.form1, .form2, .form3{
+    display: flex;
+    justify-content: center;
+}
+
+form div input{
+    padding: 50px;
+}
+
+.form3-1 {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+/* media */
+@media (max-width: 600px) {
+    .main {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .header {
+        color: #FFFFFF;
+        height: auto;
+        text-align: center;
+    }
+
+    .footer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .footer1 p {
+        padding-right: 0px;
+    }
+
+    .imgfooter {
+        padding-right: 0px;
+    }
+}
